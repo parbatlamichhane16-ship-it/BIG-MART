@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Big Mart | Fresh Products. Better Prices.</title>
+<link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/responsive.css">
+</head>
+<body data-page="home">
+<div id="site-header"></div>
+<main>
+<section class="hero"><div class="hero-slider" id="heroSlider">
+<div class="hero-slide active"><div><span class="eyebrow">BIG MART DAILY DEALS</span><h1>Fresh Products.<br><strong>Better Prices.</strong></h1><p>Everything you need for your home, delivered to your door.</p><a class="btn primary" href="products.html">Shop Now</a></div><div class="hero-art">🛒</div></div>
+<div class="hero-slide"><div><span class="eyebrow">FRESH EVERY DAY</span><h1>Fresh Fruits &<br><strong>Vegetables</strong></h1><p>Quality groceries at prices you will love.</p><a class="btn primary" href="products.html?category=Fruits%20%26%20Vegetables">Explore Fresh</a></div><div class="hero-art">🥦</div></div>
+<div class="hero-slide"><div><span class="eyebrow">MEGA SAVINGS</span><h1>Save More.<br><strong>Shop More.</strong></h1><p>Discover today's hottest offers and flash sales.</p><a class="btn primary" href="offers.html">View Offers</a></div><div class="hero-art">🏷️</div></div>
+</div><button class="slider-btn prev" onclick="slideHero(-1)">‹</button><button class="slider-btn next" onclick="slideHero(1)">›</button></section>
+
+<section class="section"><div class="section-head"><div><span class="eyebrow">SHOP BY</span><h2>Popular Categories</h2></div><a href="categories.html" class="text-link">View all →</a></div><div id="categoryGrid" class="category-grid"></div></section>
+
+<section class="section sale-section"><div class="section-head"><div><span class="eyebrow">LIMITED TIME</span><h2>Flash Sale</h2></div><div class="countdown" id="countdown"></div></div><div id="flashProducts" class="product-grid"></div></section>
+
+<section class="section"><div class="promo-grid"><div class="promo-card"><span>WEEKEND DEAL</span><h3>Up to 30% OFF</h3><p>Selected household essentials.</p><a href="offers.html">Shop deals →</a></div><div class="promo-card alt"><span>FRESH PICK</span><h3>Farm Fresh Produce</h3><p>Fresh fruits and vegetables every day.</p><a href="products.html?category=Fruits%20%26%20Vegetables">Explore →</a></div></div></section>
+
+<section class="section"><div class="section-head"><div><span class="eyebrow">CUSTOMER FAVORITES</span><h2>Best Sellers</h2></div><a href="products.html" class="text-link">Shop all →</a></div><div id="bestProducts" class="product-grid"></div></section>
+
+<section class="section"><div class="newsletter"><div><span class="eyebrow">BIG MART CLUB</span><h2>Get offers in your inbox</h2><p>Subscribe for exclusive deals and new arrivals.</p></div><form id="newsletterForm"><input type="email" placeholder="Your email address" required><button class="btn primary">Subscribe</button></form></div></section>
+</main><div id="site-footer"></div><div id="toast"></div><script src="js/data.js"></script><script src="js/app.js"></script><script src="js/products.js"></script>
+</body></html>
